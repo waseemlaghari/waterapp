@@ -1,0 +1,169 @@
+/*this is Website's main style sheet */
+.mycuscls {
+	display: inline-flex;
+}
+.mycuscls > button {
+	margin: 5px;
+}
+.imp_check {
+	color: red;
+}
+.mainsearchdata {
+	margin-top: 30px;
+}
+.mainagency_profile {
+	padding-top: 40px;
+}
+.profilepic {
+	text-align: center;
+}
+.profilepic img{
+	width: 250px;
+    height: 230px;
+    border: 6px solid #CCC;
+    border-radius: 72px !important;
+}
+.mainprofile_header_details {
+	padding: 10px;
+	text-transform: capitalize;
+}
+.mainprofile_details {
+	padding: 10px;
+	text-transform: capitalize;
+}
+.txtsized {
+	font-size: 18px;
+}
+.mainprofile_details .nocapi {
+	text-transform: lowercase;
+}
+.mainerror {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.mainagencylog {
+	padding-top: 50px;
+}
+.main-footer {
+	width: 100%;
+	margin-left: 0px !important;
+    bottom: 0px;
+    height: 50px;
+}
+.mainagency_dashboard {
+	position: relative;
+	bottom: 56px;
+}
+.main_coursel img{
+	height: 530px;
+}
+.main_bg_search {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+.srchbar button {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+}
+
+.srchbar input {
+	padding-top: 25px;
+    padding-bottom: 25px;
+    border: 3px dashed #CCC;
+}
+.main_ag_lst_shw {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.maindscs {
+	width: 50%;
+	float: left;
+}
+.main_tw_d1 {
+	padding: 60px;
+}
+.dstwtwo {
+	background-color: #343a40;
+	color: #FFF;
+}
+.main_tewdvs {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*contact us page */
+
+.maincontactuspage {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.maincontactform {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.custombread {
+	    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem !important;
+    margin-bottom: 1rem ;
+    list-style: none;
+    background-color: #e9ecef !important;
+    border-radius: 0.25rem;
+}
+
+/*Rating css starts*/
+
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+  
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:2.5em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+  color:#FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+  color:#FF912C;
+}
+.starseach li i{
+	font-size: 18px !important;
+}
+/*Rating css end*/
+.mainaboutuspage {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.aboutusimage img {
+	width: 100%;
+	height: 100%;
+}
+.aboutusdetails {
+	padding: 5px;
+}
+.aboutusimage {
+	padding: 5px;
+}
